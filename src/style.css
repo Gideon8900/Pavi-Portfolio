@@ -1,0 +1,503 @@
+/*Header Section*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Open sans";
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    width: 90px;
+}
+
+.nav-item {
+    margin: 0px 5px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.899);
+    transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(146, 156, 1);
+}
+
+.nav-btn {
+    padding: 11px 25px;
+    border: 2px solid rgb(233, 14, 7);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500 bold;
+    color: rgb(228, 38, 4);
+    border-radius: 2px;
+    margin-left: 16px;
+    transition: 0.2s ease-in;
+}
+
+.nav-btn:hover {
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+}
+/*Home Section*/
+
+.home-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-content-home {
+    width: 90%;
+    max-width: 1200px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image-box-container {    
+    width: 100px;
+    height: 140px;
+    background-image: url('https://randomuser.me/api/portraits/women/11.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.heading-home {
+    font-size: 52px;
+    font-weight: 700;
+    color: rgb(12, 142, 218);
+    padding: 15px 0px;
+}
+
+.heading-title {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+    margin: -10px 0px;
+}
+.social_media_container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.icon_home{
+    color: rgb(12, 142, 218);
+    font-size: 21px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+.btn-home{
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(12, 142, 218);
+    outline: none;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn_home_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*About Section*/
+
+body{
+    background-color: rgb(1, 1, 17);
+}
+
+.about{
+    height: 100vh;
+    padding: 80px 0px;
+}
+.about_heading{
+    text-align: center;
+}
+.img_icon_about{
+    width: 40px;
+    margin: 30px 0px;
+}
+.heading_title_about{
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading_about{
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    margin-top: 19px;
+}
+
+.content_about{
+    padding: 60px 20px;
+    padding-left: 100px;
+}
+
+.about_1 {
+    background-color: rgba(18, 26, 52, 0.762);
+    padding: 19px 36px;
+    border-radius: 8px;
+    margin-bottom: 9px;
+}
+.about_data{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+.about_2 {
+    padding: 19px 36px;
+    margin-bottom: 9px;
+}
+.image_container_about{
+    padding: 60px 0px;
+    height: 100%;
+}
+.image_box_about{
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 23, 0.48), rgba(0, 0, 0, 0.34)), url("about.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.boxes_container_about{
+    width: 100%;
+    padding: 0px 50px;
+    padding-top: 40px ;
+}
+
+.box_1_about{
+    width: 240px;
+    height: 180px;
+    border: 8px solid rgba(250, 239,239,0.856);
+    border-top: 8px solid rgb(21,37,255);
+    border-left: 8px solid rgb(21,37,255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number{
+    font-size: 51px;
+    font-weight: 500;
+    color: rgb(12, 142, 218);
+    margin: 3px 0px;
+}
+
+.skill_about{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(192,249,255,0.8);
+}
+
+/*Skill Section*/
+
+.skills{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 120px;
+}
+
+.heading_skills_container{
+    text-align: center;
+    width: 100%;
+}
+
+.heading_skill{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(12, 142, 218);
+    margin: 16px 0px;
+}
+.heading_skill_about{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+}
+
+
+/*Progress Bar*/
+
+.content_skills{
+    width: 100%;
+    padding: 80px 50px 0px 150px;
+}
+
+.content_skills right_side_content{
+    padding: 80px 180px 0px 20px;
+}
+.heading_content_skill{
+    font-size: 23px; 
+    font-weight: 600;
+    text-align: end;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.heading_content_title{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: end;
+}
+
+.skill_label{
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 13px;
+    font-weight: 600;
+    margin: 9px 0px;
+}
+
+.progress{
+    margin-bottom: 22px;
+    height: 11px;
+}
+
+.progress-bar{
+    background-color: rgb(21,37,255);
+}
+
+/* Services */
+
+.services{
+    height: auto;
+    padding: 50px 100px;
+}
+
+.heading_service_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading_service_title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(12, 142, 218);
+}
+
+.heading_service{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0px;
+
+}
+
+.para_services{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    max-width: 42%;
+    display: block;
+    line-height: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.para_services::after{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(12, 142, 218);
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content_services{
+    width: 100%;
+    height: auto;
+    background-color: #0a081a;
+    padding: 50px 30px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.content_services:hover{
+    transform: translateY(-10px);
+    background-color: #0d0b20;
+}
+
+.icon_service{
+    width: 42px;
+    margin-bottom: 5px;
+
+}
+
+.heading_content_services{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.para_content_service{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0px;
+}
+
+/* Testimonials */
+
+.testimonials{
+    height: auto;
+    width: 100%;
+    padding: 70px 120px;
+}
+
+.heading_testimonials{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    color: white;
+    margin: 15px 0px;
+}
+
+.heading_testimonials_title{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.72 );
+    text-align: center;
+}
+
+.content_testimonials{
+    padding: 30px 20px 80px 150px;
+}
+
+.img_container_testimonials{
+    width: 100px;
+    height: 70px;
+    background-image: url(https://randomuser.me/api/portraits/women/11.jpg );
+    background-position: center;
+    background-size: cover;
+}
+
+.top_part_testimonials{
+    display: flex;
+    gap: 0px 20px   ;
+    align-items: center;
+  
+}
+
+.stars{
+    font-size: 14px;
+    color: rgb(202,202,7);
+}
+
+.name_client{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin: 6px 0px;
+}
+
+.para_content_testimonials{
+    font-size: 15px;
+    color: white ;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.content_testimonials_2{
+    padding: 30px 150px 80px 20px;
+}
+
+/* Footer Section */
+
+footer{
+    padding: 50px 90px;
+    background-color: #0d0b20;
+    height: auto;
+
+}
+
+.heading_footer{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.heading_footer_title{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.navbar_footer{
+    display: flex;
+    list-style: none;   
+}
+
+.nav-link-footer{
+    text-decoration: none;
+    margin: 0px 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.92)
+
+}
+
+.icon-footer{
+    color: white;
+    font-size: 21px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icon-footer:hover{
+    color: blueviolet;
+}
+
+.footer_copyrights{
+    height: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d0b20;
+}
+
+
+.heading_copyrights{
+    color: rgba(255,255,255,0.85);
+    margin: 0px;
+    font-size: 14px;
+    
+}
